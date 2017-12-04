@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import Icon from './icon.png';
+import Data from './data.xml';
 
 function component(){
     var element = document.createElement('div');
@@ -20,6 +21,8 @@ function component(){
     element2.classList.add('world');
     element.appendChild(element2);
 
+    console.log(Data);
+    
     return element;
 }
 

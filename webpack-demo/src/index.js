@@ -15,6 +15,11 @@ function component(){
 
     element.appendChild(myIcon);
 
+    var element2 = document.createElement('span');
+    element2.innerHTML = 'World is mine!';
+    element2.classList.add('world');
+    element.appendChild(element2);
+
     return element;
 }
 

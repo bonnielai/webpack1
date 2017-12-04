@@ -1,4 +1,22 @@
+@font-face{
+  font-family: 'Roboto';
+  src: url('./Roboto-Regular.eot') format('eot'),
+       url('./Roboto-Regular.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'Helvetica Light';
+  src: url('./Helvetica LT Light.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
 .hello {
   color: red;
   background: url('./icon.png');
+  font-family: 'Roboto';
+}
+.world {
+  color: red;
+  font-family: 'Helvetica Light';
 }
